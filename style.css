@@ -38,6 +38,7 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  outline: none;
 }
 
 .task-row-wrapper {
@@ -54,7 +55,6 @@
   list-style: none;
 }
 
-input,
 .button {
   outline: none;
 }
@@ -84,7 +84,7 @@ input,
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.text-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +97,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
   color: #333;
 }
 
@@ -107,7 +107,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#new-task {
+#new-task {
   width: 318px;
 }
 
