@@ -31,7 +31,7 @@
 .main-wrapper {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 .section_task-mode {
@@ -47,7 +47,7 @@
 
 .section__task-list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .item{
@@ -55,17 +55,14 @@
 }
 
 .section__button {
-  outline: none;
-}
-
-.section__button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: "Lato", sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
 .section__button:hover {
