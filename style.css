@@ -50,8 +50,7 @@
   padding: 0px;
 }
 
-.item,
-.section-header {
+.item{
   list-style: none;
 }
 
@@ -74,6 +73,10 @@
 }
 
 /* Heading */
+.section-add{
+  margin: 16px 0;
+}
+
 .section-header {
   color: #333;
   font-weight: 700;
